@@ -1,0 +1,97 @@
+
+@media all and (max-width: 1000px){
+	.header-left {
+	  font-size: 20px;
+	  padding: 10px 15px;
+	}
+	.header-list a{
+	  font-size: 15px;
+	  padding-top: 30px;
+	}
+	.contents{
+		width: 50%;
+	}
+	.btn {
+		width: 50%;
+		margin-bottom:15px;
+		margin-left: 50px;
+		text-align: center;
+	}
+	.hedfitur{
+		text-align: center;
+		margin-left: 10px;
+	}
+	.message{
+		margin-left: 10px;
+	}
+
+	footer{
+		width: 100%;
+	}
+	.col{
+		
+		width: 100%;
+		text-align: center;
+	}
+	
+}
+
+
+@media all and (max-width: 670px){
+	
+	.menu-icon{
+	    display: block;
+  	}
+	
+	.header-list{
+	    display:none;
+  	}
+  	.main h1,span{
+  		text-align:left;
+  		font-size: 30px;
+    	line-height: 36px;
+  	}
+  	.main p{
+  		text-align:left;
+  		font-size: 15px;
+    	
+  	}
+  	.contents{
+		width: 100%;
+	}
+	.logo-contents img{
+		width: 200px;
+	}
+	.logo-contents p{
+	  
+	  top:100px;
+	  
+	  color: orange;
+	  font-size: 40px;
+	  
+	}
+	
+	.message{
+		width: 100%;
+		margin-left: 2px;
+		padding: 15px 30px;
+		font-size: 20px;
+		text-align:center;
+	}
+	.hedfitur{
+		font-size: 15px;
+		
+	}
+	
+	.tiket, .hotel, .transport{
+		width:100%;
+		font-size: 15px;
+		text-align:center;
+		padding: 15px 40px;
+		margin-left: 5px;
+	}
+	input, textarea{
+  		width: 80%;
+		padding: 15px;
+	}
+}

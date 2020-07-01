@@ -1,0 +1,261 @@
+*{
+  box-sizing: border-box;
+}
+.container{
+  max-width:1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.clear{
+  clear:left;
+}
+body {
+  margin: 0;
+  font-family: "Lucida Grande";
+}
+
+/* Bagian Header */
+
+a{
+  text-decoration: none;
+}
+
+header {
+  background-color:white;
+  color:#26d0c9;
+  height: 80px;
+  width: 100%;
+  position :fixed;
+  top: 0;
+  z-index: 10;
+  opacity: 0.9;
+}
+
+.header-left {
+  float: left;
+  font-size: 36px;
+  padding: 20px 25px;
+}
+
+.menu-icon{
+  color: black;
+  float: right;
+  font-size: 15px;
+  padding: 15px 0;
+  display: none;
+}
+
+.header-list{
+  float: right;
+  margin-right: -25px;
+}
+.header-list a{
+  color:blue;
+  float:left;
+  font-size: 20px;
+  padding-top: 25px;
+  padding-right: 15px;
+  padding-bottom:33px;
+  display: block;
+}
+
+.header-list a:hover {
+ /* background-color: rgba(255, 255, 255, 0.5);*/
+  background-color: #00CEC9;
+  opacity: 0.3;
+  color: white;
+  font-weight: bold;
+}
+/* end Header */
+
+/*bagian main */
+.main{
+  background-color: #00cec9;
+  background-size: cover;
+  padding-top:100px;
+  padding-bottom:100px;
+  color: white;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.main span{
+  color: #d63031;
+}
+
+.main h1{
+  opacity:0.9;
+  font-size:45px;
+  margin-bottom:10px;
+}
+
+.main p{
+  opacity:0.9;
+  margin-bottom:3px;
+}
+.content{
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  text-align: center;
+}
+.content h3{
+  color:#00cec9;
+  text-align: center;
+  border-bottom: 1px solid black;
+  padding-top: 20px;
+  padding-bottom: 6px;
+  font-weight: bold;
+}
+
+.contents{
+  float: left;
+  width: 25%;
+
+}
+
+.logo-contents{
+  position: relative;
+}
+
+.logo-contents img{
+  box-shadow: 0px 10px #00CEC9;
+  border-radius: 6px;
+  width:270px;
+}
+
+.logo-contents img:hover{
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.logo-contents img:active{
+  box-shadow:none;
+  position:relative;
+  top:7px;
+}
+
+.logo-contents p{
+  position: absolute;
+  top:35px;
+  width:100%;
+  color: orange;
+  font-size: 60px;
+  font-weight: bold;
+}
+.txt{
+  width:80%;
+  display:inline-block;
+  margin-top:20px;
+  font-size:15px;
+  color:#b3aeb5;
+}
+/* End Main */
+
+
+/* bagian main tambahan*/
+.btn-wrapper {
+  margin: 20px 0;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.heading h3 {
+  font-weight: normal;
+}
+
+.main-tambahan {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.message {
+  padding: 15px 40px;
+  background-color: #00cec9; /*biru*/
+  cursor: pointer;
+  box-shadow: 0 7px #008B8B;
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+.fitur {
+  text-align: center;
+  color: white;
+  background-image: url(/travelinaja/img/2.jpg);
+  background-size: cover;
+  padding: 60px; 
+}
+.tiket, .hotel, .transport {
+  background-color: red;
+  margin-right: 50px;
+}
+.contact-form {
+  padding-top: 60px;
+  text-align: center;
+  background-color: #008B8B;
+  color: white;
+}
+.contact-submit {
+  background-color:#00cec9; 
+  color: white;
+  margin-bottom: 30px;
+}
+input, textarea{
+  width: 400px;
+  margin-top: 10px;
+  padding: 15px;
+  font-size: 18px;
+  border: 1px solid #dee7ec;
+}
+/* end main tambahan*/
+
+
+
+/* bagian footer*/
+li {
+ list-style: none;
+}
+
+footer {
+  background-color: #00cec9;
+  color: #fff;
+  
+  overflow: hidden;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+.col {
+  width: 32%;
+  display: inline-block;
+  padding: 1% 0;
+}
+.col h2 {
+  font-size: 20px;
+  font-weight: bold;
+  
+}
+.col ul {
+  margin: 0px;
+  padding-right: 20px;
+}
+/* end footer*/
