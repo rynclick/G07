@@ -201,7 +201,7 @@ header {
 .fitur {
   text-align: center;
   color: white;
-  background-image: url(/travelinaja/img/2.jpg);
+  background-image: url(2.jpg);
   background-size: cover;
   padding: 60px; 
 }
