@@ -40,7 +40,9 @@
 @media all and (max-width: 670px){
 	
 	.menu-icon{
-	    display: block;
+	    /*display:block;*/
+	    opacity: 1;
+	    padding-top:30px;
   	}
 	
 	.header-list{
