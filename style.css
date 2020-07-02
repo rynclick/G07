@@ -43,7 +43,8 @@ header {
   float: right;
   font-size: 15px;
   padding: 15px 0;
-  display: none;
+  /*display:none;*/
+  opacity: 0;
 }
 
 .header-list{
