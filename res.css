@@ -43,15 +43,19 @@
 	    /*display:block;*/
 	    opacity: 1;
 	    padding-top:30px;
+	    padding-right: 10px;
   	}
-	
+	.header-left {
+	  font-size: 26px;
+	  padding-top: 15px;
+	}
 	.header-list{
 	    display:none;
   	}
   	.main h1,span{
   		text-align:left;
   		font-size: 30px;
-    	line-height: 36px;
+    		line-height: 30px;
   	}
   	.main p{
   		text-align:left;
