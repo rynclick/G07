@@ -41,7 +41,7 @@ header {
 .menu-icon{
   color: black;
   float: right;
-  font-size: 15px;
+  font-size: 20px;
   padding: 15px 0;
   /*display:none;*/
   opacity: 0;
@@ -55,7 +55,7 @@ header {
   color:blue;
   float:left;
   font-size: 20px;
-  padding-top: 25px;
+  padding-top: 30px;
   padding-right: 15px;
   padding-bottom:33px;
   display: block;
@@ -244,23 +244,20 @@ li {
 footer {
   background-color: #00cec9;
   color: #fff;
-  
   overflow: hidden;
   padding-top: 30px;
   padding-bottom: 20px;
+  text-align: center;
 }
 .col {
-  width: 32%;
+  width: 33%;
   display: inline-block;
   padding: 1% 0;
+  
 }
 .col h2 {
   font-size: 20px;
   font-weight: bold;
   
-}
-.col ul {
-  margin: 0px;
-  padding-right: 20px;
 }
 /* end footer*/
