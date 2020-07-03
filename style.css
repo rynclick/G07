@@ -55,7 +55,6 @@ header {
   color:blue;
   float:left;
   font-size: 20px;
-  padding-left: 5px;
   padding-top: 30px;
   padding-right: 15px;
   padding-bottom:33px;
@@ -66,8 +65,9 @@ header {
  /* background-color: rgba(255, 255, 255, 0.5);*/
   background-color: #00CEC9;
   opacity: 0.3;
-  color: white;
+  color: #DAA520;
   font-weight: bold;
+  padding-left: 10px;
 }
 /* end Header */
 
