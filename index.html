@@ -11,21 +11,19 @@
 <body>
 <!-- Bagian Header -->
 <header>
-<div class="container">
-  <div class="header-left"><img src="logo1.png">
-        TravelinAja!
-  </div>
-  <span class="fa fa-bars menu-icon"></span>
-  <div class="header-list">
-        <a href="#"><img src="logo2.png"></a>
-        <a href="#">Masuk</a>
-        <a href="#">Informasi Lainya</a>
-        <a href="#">Transportasi</a>
-        <a href="#">Paket</a>
-        <a href="#">Hotel</a>
-        <a href="#">Destinasi</a>
-  </div>
-</div>
+
+  <ul class="header-menu">
+      <img class="logo1" src="logo1.png"><span>TravelinAja!</span>
+      <li><a href="#"><img src="logo2.png" height="18px;"></a></li>
+      <li><a href="#">Masuk</a></li>
+      <li><a href="#">Informasi Lainya</a></li>
+      <li><a href="#">Transportasi</a></li>
+      <li><a href="#">Paket</a></li>
+      <li><a href="#">Hotel</a></li>
+      <li><a href="#">Destinasi</a></li>
+      <li class="icon"><a href="javascript:void(0);" onclick="myFunction()"><span class="fa fa-bars menu-icon" style="font-size: 20px;" ></span></a></li>
+  </ul>
+
 </header>
 <!-- End Header -->
 
@@ -141,6 +139,12 @@
   </div>
 </footer>
 <!--End Bagian Footer -->
+<script>
 
+function myFunction() {
+    document.getElementsByClassName("header-menu")[0].classList.toggle("responsive");
+}
+
+ </script>
 </body>
 </html>
