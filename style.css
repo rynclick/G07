@@ -23,8 +23,8 @@ a{
 
 header {
   background-color:white;
-  color:#26d0c9;
-  height: 80px;
+  color:#E5FA15;
+  height: 60px;
   width: 100%;
   position :fixed;
   top: 0;
@@ -32,43 +32,49 @@ header {
   opacity: 0.9;
 }
 
-.header-left {
-  float: left;
+.logo1 {
+  margin-top:15px;
+  margin-left: 20px;
+  width: 45px;
+}
+ul.header-menu span{
   font-size: 36px;
-  padding: 20px 25px;
+  padding: 20px 15px;
 }
 
-.menu-icon{
-  color: black;
+ul.header-menu {
+    width:100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #008B8B;
+    font-weight: bold;
+}
+
+ul.header-menu li {
   float: right;
-  font-size: 20px;
-  padding: 15px 0;
-  /*display:none;*/
-  opacity: 0;
 }
 
-.header-list{
-  float: right;
-  margin-right: -25px;
-}
-.header-list a{
-  color:blue;
-  float:left;
-  font-size: 20px;
-  padding-top: 30px;
-  padding-right: 15px;
-  padding-bottom:33px;
-  display: block;
+ul.header-menu li a {
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 25px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
 }
 
-.header-list a:hover {
- /* background-color: rgba(255, 255, 255, 0.5);*/
-  background-color: rgba(64, 224, 208, 0.4);
-  /*opacity: 0.8;*/
-  color: #DAA520;
-  font-weight: bold;
-  padding-left: 10px;
+ul.header-menu li a:hover {
+  background-color: #DAA520;
+  padding: 27px 16px;
 }
+
+ul.header-menu li.icon {
+  display: none;
+}
+
 /* end Header */
 
 /*bagian main */
@@ -262,3 +268,5 @@ footer {
   
 }
 /* end footer*/
+
+
